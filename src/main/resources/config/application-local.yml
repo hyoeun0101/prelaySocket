@@ -1,0 +1,18 @@
+
+prelayserver:
+  config:
+    port: 15011
+    enable: true
+    bCoupon:
+      port: 15012
+      enable: true
+    apiConnectionTimeout: 30000
+    apiReadTimeout: 30000
+    readerIdleTime: 10
+    writerIdleTime: 10
+    time-out: 30000
+  api:
+    url: http://localhost:29090
+    bCouponUrl: http://localhost:39090
+    couponUrl: http://localhost:49090
+    ssgCouponUrl: http://localhost:59090

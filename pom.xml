@@ -19,7 +19,7 @@
 	
 	<profiles>
 		<profile>
-			<id>local</id>
+			<id>khe</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
@@ -33,6 +33,7 @@
 			<id>prd</id>
 		</profile>
 	</profiles>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -55,7 +56,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
-        </dependency>
+       </dependency>
         
         
         
@@ -82,6 +83,10 @@
         	<artifactId>spring-boot-configuration-processor</artifactId>
         	<optional>true</optional>
         </dependency>
+        
+   
+        
+        
 	</dependencies>
 
 	<build>
